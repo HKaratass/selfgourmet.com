@@ -1,0 +1,24 @@
+git clone <<github_repo>>
+C:\Program Files\PostgreSQL\15\bin;
+C:\Program Files\Git\cmd;
+C:\Program Files\Git\bin;
+<<database_password>>
+
+1. satıra github clone linki
+2. satıra postgre bin dosya konumu
+3. satıra git cmd konumu
+4. satıra git bin konumu
+5. satıra psql postgres user şifresi
+
+Kurulu olmayan programların pathlerini olduğu gibi bırakın.
+Batch çalıştıktan ve programlar kurulduktan sonra pathler farklı ise
+    değiştirip yeniden programı başlatın.
+
+Eklenen pathler kalıcı değildir, sadece bu batch de geçerlidir.
+Eğer cmd üzerinde knex ve psql komutlarını kullanmak istiyorsanız;
+-Bilgisayar>Özellikler>Gelişmiş Sistem Ayarları>Ortam Değişkenleri
+--PATH>Yeni
+*Pathleri tek tek buraya ekleyin
+YA DA
+cmd biliyorsanız
+admin cmd > setx /M komutu ile path düzenlemesini kalıcı yapabilirsiniz
